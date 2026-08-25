@@ -10,16 +10,16 @@ import java.util.UUID;
 
 import static org.mockito.Mockito.*;
 
-public class DispatchTrackingHandlerTest {
+public class TrackingHandlerTest {
 
-    private DispatchTrackingHandler handler;
+    private TrackingHandler handler;
 
     private TrackingService serviceMock;
 
     @BeforeEach
     void setup() {
         serviceMock = mock(TrackingService.class);
-        handler = new DispatchTrackingHandler(serviceMock);
+        handler = new TrackingHandler(serviceMock);
     }
 
     @Test
