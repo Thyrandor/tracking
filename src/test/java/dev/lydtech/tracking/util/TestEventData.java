@@ -1,7 +1,7 @@
 package dev.lydtech.tracking.util;
 
 import dev.lydtech.dispatch.message.DispatchPreparing;
-import dev.lydtech.tracking.message.TrackingStatusUpdated;
+import dev.lydtech.dispatch.message.TrackingStatusUpdated;
 
 import java.util.UUID;
 

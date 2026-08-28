@@ -1,4 +1,4 @@
-package dev.lydtech.tracking.message;
+package dev.lydtech.dispatch.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
